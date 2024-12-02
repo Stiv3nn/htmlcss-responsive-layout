@@ -22,15 +22,15 @@
 
 
 /* MAIN */
-
-main{
+/* main{
     background-color: rgb(223, 226, 211);
-}
+} */
 
 .container-ricetta{
     width: 100%;
     display: flex;
     justify-content: center;
+    background-color: rgb(223, 226, 211)
 }
 
 .container-tiramisù{
@@ -58,6 +58,7 @@ main{
 .immagine-dettagli{
     display: flex;
 }
+
 
 .dettagli-elenco{
     display: flex;
@@ -106,8 +107,36 @@ main{
 
 @media screen and (max-width: 768px) {
 
+    .container-ricetta{
+        /* background-color: rgb(223, 226, 211); */
+        width: 100%;
+        display: block;
+    }
+
+    .container-tiramisù{
+        width: 100%;
+    }
+
+    .immagine-dettagli{
+        display: block;
+        width: 100%;
+    }
+
+    .dettagli-elenco{
+        text-align: center;
+    }
+
+    .dove-trovarci{
+        font-size: 10px;
     
+    }
+
+  
+
     
+
+
 }
+
 
 
